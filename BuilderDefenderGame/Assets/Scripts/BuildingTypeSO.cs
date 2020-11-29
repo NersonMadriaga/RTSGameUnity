@@ -6,5 +6,9 @@ using UnityEngine;
 public class BuildingTypeSO : ScriptableObject
 {
     public string nameString;
+    public int amount;
     public Transform prefab;
+    public Sprite sprite;
+
+    public ResourceGeneratorData resourceGeneratorData;
 }

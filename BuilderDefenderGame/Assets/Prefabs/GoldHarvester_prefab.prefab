@@ -70,7 +70,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 793ca27a5a3378149aaa12abe85933f4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8ead931dd91bff8489e75de9c414f17f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -90,10 +90,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7168885747590648566}
-  - component: {fileID: 4193050755362931183}
-  - component: {fileID: -985362933596336441}
+  - component: {fileID: 7681799813738128580}
+  - component: {fileID: -3274661466966197810}
   m_Layer: 0
-  m_Name: WoodHarvester_prefab
+  m_Name: GoldHarvester_prefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -114,7 +114,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &4193050755362931183
+--- !u!114 &7681799813738128580
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -126,7 +126,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 461de29b9fc8e3846a652dae679e45cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &-985362933596336441
+--- !u!114 &-3274661466966197810
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -139,4 +139,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   list:
-  - {fileID: 11400000, guid: de743d0c4b1df274ba17e8eacb873d3c, type: 2}
+  - {fileID: 11400000, guid: ec340ccae35a7614993437a7d3c7dd12, type: 2}
